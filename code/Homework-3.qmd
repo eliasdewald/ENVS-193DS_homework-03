@@ -1,0 +1,19 @@
+---
+title: "Homework-3"
+format: html
+---
+
+https://github.com/eliasdewald/ENVS-193DS_homework-03.git
+
+```{r}
+#| message: false # make messages not show
+#| warning: false # make warnings not show
+
+library(tidyverse)
+library(here)
+library(flextable)
+library(janitor)
+library(readxl)
+read.csv(projectdata)
+```
+
