@@ -16,4 +16,10 @@ library(janitor)
 library(readxl)
 read.csv(projectdata)
 ```
+# Problem 1. Personal data
 
+## a. 
+
+I could calculate mean sleep duration to compare average sleep duration between 
+types of day because I believe I sleep more on work days than normal days due
+to exerting myself more on those days.
