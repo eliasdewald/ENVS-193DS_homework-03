@@ -9,13 +9,19 @@ https://github.com/eliasdewald/ENVS-193DS_homework-03.git
 #| message: false # make messages not show
 #| warning: false # make warnings not show
 
-library(tidyverse)
+library(tidyverse) # read in packages
 library(here)
 library(flextable)
 library(janitor)
 library(readxl)
-read.csv(projectdata)
+
 ```
+```{r}
+project_data <- read.csv( # read in data
+  here("data", "projectdata.csv")) # set file path
+```
+
+
 # Problem 1. Personal data
 
 ## a. 
@@ -23,3 +29,11 @@ read.csv(projectdata)
 I could calculate mean sleep duration to compare average sleep duration between 
 types of day because I believe I sleep more on work days than normal days due
 to exerting myself more on those days.
+
+## b. 
+
+```{r}
+
+```
+
+
