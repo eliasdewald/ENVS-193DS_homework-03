@@ -28,7 +28,7 @@ project_data <- read.csv( # read in data
 
 I could calculate mean sleep duration to compare average sleep duration between 
 types of day because I believe I sleep more on work days than normal days due
-to exerting myself more on those days.
+to being busier on those days.
 
 ## b. 
 
