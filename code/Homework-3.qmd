@@ -33,7 +33,35 @@ to being busier on those days.
 ## b. 
 
 ```{r}
-
+avg_sleep <- project_data |>  # creating new object from data
+  select(day_type, sleep_duration) |>  # selecting columns of interest
+  group_by(day_type) |>   # grouping by day_type
+  summarise(mean = mean(sleep_duration)) # calculate mean
+ggplot(data = project_data, # plot with avg_sleep frame
+       aes(x = day_type, # set x-axis
+       y = sleep_duration, # set y axis
+       color = day_type)) + # color by day type
+  geom_jitter(width = 0.2, # make points jitter horizontally
+               height = 0, # make sure points don't jitter along y-axis
+              alpha = 0.3, # make points more transparent
+              shape = 21, # make points open circles
+              size = 2) + # set size of jittered points
+  geom_point(data = avg_sleep, # plot means 
+              size = 4, # set size of points
+              aes(x = day_type,
+                  y = mean)) + # set x-axis
+  scale_color_manual(values = c("Normal" = "coral", # set color for normal day
+                 "Work" = "deepskyblue")) + # set color for work day
+  theme(legend.position = "none", # make sure legend doesn't show
+        panel.background = element_rect("white"), # make background white
+        panel.grid = element_blank()) + # remove grid
+  labs(x = "Day type", # label x-axis
+       y = "Sleep duration (hours)", # label y-axis
+       title = "Average sleep duration across normal and work days") 
+       # name plot title
+      
 ```
+
+
 
 
