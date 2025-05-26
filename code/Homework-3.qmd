@@ -36,7 +36,8 @@ to being busier on those days.
 avg_sleep <- project_data |>  # creating new object from data
   select(day_type, sleep_duration) |>  # selecting columns of interest
   group_by(day_type) |>   # grouping by day_type
-  summarise(mean = mean(sleep_duration)) # calculate mean
+  summarise(mean = mean(sleep_duration), # calculate mean
+            n = length(sleep_duration)) # calculate sample size
 ggplot(data = project_data, # plot with avg_sleep frame
        aes(x = day_type, # set x-axis
        y = sleep_duration, # set y axis
@@ -61,6 +62,13 @@ ggplot(data = project_data, # plot with avg_sleep frame
        # name plot title
       
 ```
+
+## c. 
+
+**Figure 1.** Sleep duration tends to be higher on normal days than on work 
+days. Data from 'projectdata.csv'. Large filled in points represent mean sleep
+duration for normal (n = 22) and work (n = 16) days. Small transparent open 
+points represent observations of sleep duration for normal and work days. 
 
 
 
