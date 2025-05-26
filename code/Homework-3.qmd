@@ -68,8 +68,20 @@ ggplot(data = project_data, # plot with avg_sleep frame
 **Figure 1.** Sleep duration tends to be higher on normal days than on work 
 days. Data from 'projectdata.csv'. Large filled in points represent mean sleep
 duration for normal (n = 22) and work (n = 16) days. Small transparent open 
-points represent observations of sleep duration for normal and work days. 
+points represent observations of sleep duration for normal and work days. Colors 
+represent type of day (Orange: nomral, Blue: Work).
 
+## d. 
 
+```{r}
+table <- flextable(avg_sleep, # make new object from avg_sleep object
+                   col_keys = c("day_type", "mean")) |> 
+  # select colums of interst
+  set_header_labels(table, day_type = "Type of day", # rename column titles
+                    mean = "Mean sleep duration") |> 
+  colformat_double(digits = 1) # round values to one decimal point
+table # display table
 
+                                
+```
 
