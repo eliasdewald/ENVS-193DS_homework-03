@@ -132,3 +132,14 @@ is displaying and there aren't distracting and uninformative aspects being
 visualized. The data:ink ratio is high. 
 
 ## d. 
+
+The figure is generally good, but I think it could use one slight addition. 
+Adding different letters above each bar to indicate significant differences 
+found through the ANOVA tests could be helpful. They could take the same 
+approach they did with a previous table within the paper. In the table, a letter 
+"a" above a number meant there was a statistically significant difference 
+between that number and a number with a letter "b", "c", or "d" above it, based
+on the ANOVA test done on the data from that specific plant. This could be 
+adopted for the figure where instead of a letter above a number it could be 
+placed above the corresponding bar in the graph. It may add some visual clutter,
+but it would communicate the results of the statistical tests better.
