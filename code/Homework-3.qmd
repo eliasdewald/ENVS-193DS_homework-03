@@ -119,5 +119,9 @@ for each plant.
 
 ## b. 
 
-
+For the most part, the authors represented their statistics well. The means and 
+standard errors are visualized clearly with bars and vertical bars, 
+respectively. The axes and legend are clear and in logical positions. However, 
+the underlying data is not included and there are no mentions of the results of
+the ANOVA tests in either the figure or the figure caption.
 
