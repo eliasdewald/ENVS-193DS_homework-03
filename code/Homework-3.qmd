@@ -125,3 +125,10 @@ respectively. The axes and legend are clear and in logical positions. However,
 the underlying data is not included and there are no mentions of the results of
 the ANOVA tests in either the figure or the figure caption.
 
+## c. 
+
+The authors handed visual clutter well. It is easy to understand what the figure
+is displaying and there aren't distracting and uninformative aspects being 
+visualized. The data:ink ratio is high. 
+
+## d. 
