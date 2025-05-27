@@ -104,3 +104,20 @@ the beds look different to portray the type of day they correspond to.
 ## d. 
 
 
+
+# 3. 
+
+## a. 
+
+The paper includes multiple statistical tests, so I was recommended to go with 
+the four standard one-way analysis of variance (ANOVA) tests done on the data
+that was displayed in an important figure. The response variable is M. 
+polymorpha seedling dry weight (mg/seedling) and the predictor variable is the concentration of aqueous extract (%) of each plant as there was one ANOVA test 
+for each plant.
+
+![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/Figure.png)
+
+## b. 
+
+
+
