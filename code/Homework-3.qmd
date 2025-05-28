@@ -44,11 +44,11 @@ ggplot(data = project_data, # plot with avg_sleep frame
        color = day_type)) + # color by day type
   geom_jitter(width = 0.2, # make points jitter horizontally
                height = 0, # make sure points don't jitter along y-axis
-              alpha = 0.3, # make points more transparent
+              alpha = 0.5, # make points more transparent
               shape = 21, # make points open circles
               size = 2) + # set size of jittered points
   geom_point(data = avg_sleep, # plot means 
-              size = 4, # set size of points
+              size = 3, # set size of points
               aes(x = day_type,
                   y = mean)) + # set x-axis
   scale_color_manual(values = c("Normal" = "coral", # set color for normal day
@@ -97,13 +97,21 @@ the beds look different to portray the type of day they correspond to.
 
 ## b. 
 
+![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/IMG_9226.jpeg)
 
 ## c. 
 
+![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/IMG_9227.jpeg)
 
 ## d. 
 
-
+I am showing my average sleep duration for normal days and work days through
+the lengths of the beds and the type of day through what objects are on each of 
+the beds. For example, the normal day bed has a school backpack on it and the 
+work day one has a shovel. I was influenced by Jill Pelto's paintings which 
+visualizes data through art. I thought incorporating art into a graph to 
+visualize data was a neat idea. The form of my work is a graphical drawing 
+utilizing colored pens and pencil. 
 
 # 3. 
 
