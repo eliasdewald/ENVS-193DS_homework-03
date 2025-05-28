@@ -14,7 +14,6 @@ library(here) # file organization
 library(flextable) # table creation and editing
 library(janitor) # cleaning data frames
 
-
 ```
 ```{r}
 project_data <- read.csv( # read in data
@@ -58,8 +57,8 @@ ggplot(data = project_data, # plot with avg_sleep frame
         panel.grid = element_blank()) + # remove grid
   labs(x = "Day type", # label x-axis
        y = "Sleep duration (hours)", # label y-axis
-       title = "Average sleep duration across normal and work days") 
-       # name plot title
+       title = "Average sleep duration across normal and work days") # name plot title
+
       
 ```
 
@@ -81,7 +80,6 @@ table <- flextable(avg_sleep, # make new object from avg_sleep object
                     mean = "Mean sleep duration") |> 
   colformat_double(digits = 1) # round values to one decimal point
 table # display table
-
                                 
 ```
 
@@ -97,11 +95,11 @@ the beds look different to portray the type of day they correspond to.
 
 ## b. 
 
-![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/code/IMG_9226.jpeg)
+![Sketch](IMG_9226.jpeg)
 
 ## c. 
 
-![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/code/IMG_9227.jpeg)
+![Draft](IMG_9227.jpeg)
 
 ## d. 
 
@@ -123,7 +121,7 @@ that was displayed in an important figure. The response variable is M.
 polymorpha seedling dry weight (mg/seedling) and the predictor variable is the concentration of aqueous extract (%) of each plant as there was one ANOVA test 
 for each plant.
 
-![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/code/Figure.png)
+![Figure](Figure.png)
 
 ## b. 
 
