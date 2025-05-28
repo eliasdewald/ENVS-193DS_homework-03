@@ -24,12 +24,13 @@ File Structure:
 ├── ENVS-193DS_homework-03.Rproj
 ├── README.md
 ├── code                                            # code folder
-    └── Homework-3.qmd                              # quarto document
+    ├── Homework-3.qmd                              # quarto document
+    ├── IMG_9226.jpeg                               # sketch image
+    ├── IMG_9227.jpeg                               # draft image
+    └── Figure.png                                  # figure image
 ├── data                                            # data folder
     └── projectdata.csv                             # data file
-├── IMG_9226.jpeg                                   # sketch image
-├── IMG_9227.jpeg                                   # draft image
-├── Figure.png                                      # figure image
+
 ```
 
 All code is in the `code` folder. The code calculates summary statistics

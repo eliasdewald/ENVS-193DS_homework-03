@@ -1,5 +1,7 @@
 ---
 title: "Homework-3"
+subtitle: "Eli Dewald"
+date: "May 27, 2025"
 format: html
 toc: true
 ---
@@ -84,7 +86,7 @@ table # display table
 ```
 
 
-# 2. 
+# 2. Affective visualization
 
 ## a. 
 
@@ -111,7 +113,7 @@ visualizes data through art. I thought incorporating art into a graph to
 visualize data was a neat idea. The form of my affective visualization is a 
 graphical drawing utilizing colored pens and pencil. 
 
-# 3. 
+# 3. Statistical critique
 
 ## a. 
 
