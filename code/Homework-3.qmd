@@ -3,7 +3,7 @@ title: "Homework-3"
 format: html
 ---
 
-https://github.com/eliasdewald/ENVS-193DS_homework-03.git
+
 
 ```{r}
 #| message: false # make messages not show
@@ -44,7 +44,7 @@ ggplot(data = project_data, # plot with avg_sleep frame
        color = day_type)) + # color by day type
   geom_jitter(width = 0.2, # make points jitter horizontally
                height = 0, # make sure points don't jitter along y-axis
-              alpha = 0.5, # make points more transparent
+              alpha = 0.7, # make points more transparent
               shape = 21, # make points open circles
               size = 2) + # set size of jittered points
   geom_point(data = avg_sleep, # plot means 
@@ -97,11 +97,11 @@ the beds look different to portray the type of day they correspond to.
 
 ## b. 
 
-![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/IMG_9226.jpeg)
+![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/IMG_9226.jpeg)
 
 ## c. 
 
-![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/IMG_9227.jpeg)
+![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/IMG_9227.jpeg)
 
 ## d. 
 
@@ -123,7 +123,7 @@ that was displayed in an important figure. The response variable is M.
 polymorpha seedling dry weight (mg/seedling) and the predictor variable is the concentration of aqueous extract (%) of each plant as there was one ANOVA test 
 for each plant.
 
-![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/Figure.png)
+![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/Figure.png)
 
 ## b. 
 
