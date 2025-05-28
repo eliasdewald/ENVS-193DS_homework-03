@@ -1,8 +1,8 @@
 ---
 title: "Homework-3"
 format: html
+toc: true
 ---
-
 
 
 ```{r}
@@ -97,11 +97,11 @@ the beds look different to portray the type of day they correspond to.
 
 ## b. 
 
-![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/IMG_9226.jpeg)
+![Sketch](C:/Users/elias/Git/ENVS-193DS_homework-03/code/IMG_9226.jpeg)
 
 ## c. 
 
-![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/IMG_9227.jpeg)
+![Draft](C:/Users/elias/Git/ENVS-193DS_homework-03/code/IMG_9227.jpeg)
 
 ## d. 
 
@@ -123,7 +123,7 @@ that was displayed in an important figure. The response variable is M.
 polymorpha seedling dry weight (mg/seedling) and the predictor variable is the concentration of aqueous extract (%) of each plant as there was one ANOVA test 
 for each plant.
 
-![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/Images/Figure.png)
+![Figure](C:/Users/elias/Git/ENVS-193DS_homework-03/code/Figure.png)
 
 ## b. 
 
